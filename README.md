@@ -14,6 +14,7 @@ To compile and run the code, ensure the following libraries and headers are inst
 system:
 - GNU Scientific Library (GSL)
 - OpenMP
+
 You can install the required dependecies on **Ubuntu/Debian** with:
 ```
 sudo apt install libgsl-dev libomp-dev
