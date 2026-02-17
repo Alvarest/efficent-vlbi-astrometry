@@ -21,8 +21,8 @@ sudo apt install libgsl-dev libomp-dev
 ### Compilation
 To compile the code, use the following gcc command on the root directory:
 ```
-gcc -c functions/mcmc_funcs.c -I. -lm -lgsl -lgslcblas -lgomp -fopenmp
-gcc -c functoins/model_funcs.c -I. -lm -lgsl -lgslcblas -lgomp -fopenmp
+gcc -c mcmc_funcs.c -I. -lm -lgsl -lgslcblas -lgomp -fopenmp
+gcc -c model_funcs.c -I. -lm -lgsl -lgslcblas -lgomp -fopenmp
 ```
 ### Execution
 To link and compile your own code using this functions you should link the object files with 
